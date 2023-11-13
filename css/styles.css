@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@300&display=swap');
+
+* {
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 19px;
+    padding: none;
+    background-color: #FFE3BB;
+    color: #0f021a;
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+p  {
+    font-weight: 300;
+}
+
+h1, h2, h3 {
+    font-family: 'Pacifico', cursive;
+}
+
+ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+a { 
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 90vw;
+    margin: auto;
+    min-height: 100vh;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.title { 
+    font-size: 3rem;
+}
+
+.list-container {
+    padding: 20px 0px;
+    width: 240px;
+    max-width: 100%;
+}
+
+.list-container a:hover {
+    border-bottom: 2px solid #83A2FF;
+}
+
+.recipe-img {
+    width: 300px;
+    padding: 20px 0px;
+    height: auto;
+    max-width: 100%;
+}
+
+.return-btn {
+    font-weight: bold;
+    padding: 20px 0px;
+}
